@@ -1,0 +1,20 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "index.js",
+      "use": "@vercel/node"
+    },
+    {
+      "src": "public/**",
+      "use": "@vercel/static"
+    }
+  ],
+  "routes": [
+  { "src": "/deepgram-token", "dest": "/index.js" },
+  { "src": "/punctuate", "dest": "/index.js" },
+  { "src": "/transcribe-audio", "dest": "/index.js" },
+  { "src": "/api/summarize-text", "dest": "/index.js" },
+  { "src": "/(.*)", "dest": "/public/$1" }
+]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "speech-to-text-app",
+  "version": "1.0.0",
+  "description": "A real-time speech-to-text application using Deepgram, Vue.js, and OpenAI as NLP Post Processing",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@deepgram/sdk": "^2.2.0",
+    "axios": "^1.5.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "openai": "^4.95.0"
+  },
+  "engines": {
+    "node": ">=16"
+  },
+  "license": "MIT"
+}

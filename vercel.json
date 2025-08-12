@@ -15,7 +15,7 @@
   { "src": "/punctuate", "dest": "/index.js" },
   { "src": "/transcribe-audio", "dest": "/index.js" },
   { "src": "/api/summarize-text", "dest": "/index.js" },
-  { "src": ";api/get-topic","dest": "/index.js" },
+  { "src": "/api/get-topic","dest": "/index.js" },
   { "src": "/(.*)", "dest": "/public/$1" }
 ]
 }
